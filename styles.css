@@ -1,53 +1,113 @@
+/* ===== Global Styles ===== */
 body {
-  font-family: Arial, sans-serif;
-  background: #f0f4f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
   margin: 0;
+  padding: 0 20px;
 }
-.quiz-container {
-  background: white;
-  padding: 20px 30px;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  text-align: center;
-}
+
+h1,
 h2 {
-  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
 }
+
+/* ===== Quiz Container ===== */
+.quiz-container {
+  background-color: #fff;
+  padding: 25px 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+}
+
+/* ===== Answer Buttons ===== */
 .btn {
   display: block;
   width: 100%;
+  padding: 10px;
   margin: 8px 0;
-  padding: 10px;
-  background: #e3e8f0;
+  font-size: 14px;
+  font-weight: bold;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  background-color: #2196f3;
+  color: #fff;
 }
+
 .btn:hover {
-  background: #d0d8e5;
+  background-color: #1976d2;
+  transform: scale(1.02);
 }
+
 .btn.correct {
-  background: #8bc34a;
-  color: white;
+  background-color: #4caf50;
+  color: #fff;
 }
+
 .btn.wrong {
-  background: #f44336;
-  color: white;
+  background-color: #f44336;
+  color: #fff;
 }
+
+/* ===== Next Button ===== */
 #next-btn {
-  margin-top: 15px;
-  padding: 10px;
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  display: none;
+  background-color: #1976d2;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  width: 30%;
+  margin: 0 auto;
+}
+
+#next-btn:hover {
+  background-color: #1976d2;
+  transform: scale(1.05);
+}
+
+/* ===== Answer Buttons Container ===== */
+#answer-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Start Screen ===== */
+#start-screen {
+  text-align: center;
+}
+
+#start-screen h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .quiz-container {
+    padding: 15px 10px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  #next-btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  #start-screen h1 {
+    font-size: 22px;
+  }
 }
