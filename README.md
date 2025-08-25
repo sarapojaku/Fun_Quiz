@@ -68,4 +68,4 @@ Style Buttons: Update styles.css to change colors, sizes, or layout.
 
 Credits
 
-Created by [Your Name] – a fun project to practice frontend development skills.
+Created by Sara Pojaku – a fun project to practice frontend development skills.
