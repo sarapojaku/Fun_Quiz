@@ -45,7 +45,195 @@ let allQuestions = [
       { text: "208", correct: false },
     ],
   },
-  // add other questions here...
+  {
+    question: "Which element has the atomic number 1?",
+    answers: [
+      { text: "Helium", correct: false },
+      { text: "Hydrogen", correct: true },
+      { text: "Oxygen", correct: false },
+      { text: "Carbon", correct: false },
+    ],
+  },
+  {
+    question: "Who wrote 'Romeo and Juliet'?",
+    answers: [
+      { text: "William Shakespeare", correct: true },
+      { text: "Charles Dickens", correct: false },
+      { text: "Leo Tolstoy", correct: false },
+      { text: "Mark Twain", correct: false },
+    ],
+  },
+  {
+    question: "What is the largest planet in our solar system?",
+    answers: [
+      { text: "Jupiter", correct: true },
+      { text: "Saturn", correct: false },
+      { text: "Earth", correct: false },
+      { text: "Neptune", correct: false },
+    ],
+  },
+  {
+    question: "Which country hosted the 2016 Summer Olympics?",
+    answers: [
+      { text: "China", correct: false },
+      { text: "Brazil", correct: true },
+      { text: "UK", correct: false },
+      { text: "Russia", correct: false },
+    ],
+  },
+  {
+    question: "What is the square root of 144?",
+    answers: [
+      { text: "10", correct: false },
+      { text: "12", correct: true },
+      { text: "14", correct: false },
+      { text: "16", correct: false },
+    ],
+  },
+  {
+    question: "Which organ purifies blood in the human body?",
+    answers: [
+      { text: "Liver", correct: false },
+      { text: "Kidney", correct: true },
+      { text: "Heart", correct: false },
+      { text: "Lungs", correct: false },
+    ],
+  },
+  {
+    question: "Who discovered penicillin?",
+    answers: [
+      { text: "Marie Curie", correct: false },
+      { text: "Alexander Fleming", correct: true },
+      { text: "Louis Pasteur", correct: false },
+      { text: "Gregor Mendel", correct: false },
+    ],
+  },
+  {
+    question: "What is the tallest mountain in the world?",
+    answers: [
+      { text: "K2", correct: false },
+      { text: "Everest", correct: true },
+      { text: "Kangchenjunga", correct: false },
+      { text: "Lhotse", correct: false },
+    ],
+  },
+  {
+    question: "Which continent is the Sahara Desert located on?",
+    answers: [
+      { text: "Asia", correct: false },
+      { text: "Africa", correct: true },
+      { text: "Australia", correct: false },
+      { text: "South America", correct: false },
+    ],
+  },
+  {
+    question: "What is the main language spoken in Brazil?",
+    answers: [
+      { text: "Spanish", correct: false },
+      { text: "Portuguese", correct: true },
+      { text: "English", correct: false },
+      { text: "French", correct: false },
+    ],
+  },
+  {
+    question: "Which is the smallest prime number?",
+    answers: [
+      { text: "1", correct: false },
+      { text: "2", correct: true },
+      { text: "3", correct: false },
+      { text: "5", correct: false },
+    ],
+  },
+  {
+    question: "Which famous scientist developed the theory of relativity?",
+    answers: [
+      { text: "Isaac Newton", correct: false },
+      { text: "Albert Einstein", correct: true },
+      { text: "Galileo Galilei", correct: false },
+      { text: "Nikola Tesla", correct: false },
+    ],
+  },
+  {
+    question: "Which planet is closest to the Sun?",
+    answers: [
+      { text: "Mercury", correct: true },
+      { text: "Venus", correct: false },
+      { text: "Earth", correct: false },
+      { text: "Mars", correct: false },
+    ],
+  },
+  {
+    question: "What is H2O more commonly known as?",
+    answers: [
+      { text: "Hydrogen Peroxide", correct: false },
+      { text: "Water", correct: true },
+      { text: "Salt", correct: false },
+      { text: "Oxygen", correct: false },
+    ],
+  },
+  {
+    question: "Who is the author of 'Harry Potter' series?",
+    answers: [
+      { text: "J.K. Rowling", correct: true },
+      { text: "J.R.R. Tolkien", correct: false },
+      { text: "George R.R. Martin", correct: false },
+      { text: "Suzanne Collins", correct: false },
+    ],
+  },
+  {
+    question: "Which country is known as the Land of the Rising Sun?",
+    answers: [
+      { text: "Japan", correct: true },
+      { text: "China", correct: false },
+      { text: "Thailand", correct: false },
+      { text: "South Korea", correct: false },
+    ],
+  },
+  {
+    question: "Which organ pumps blood through the body?",
+    answers: [
+      { text: "Lungs", correct: false },
+      { text: "Heart", correct: true },
+      { text: "Liver", correct: false },
+      { text: "Kidneys", correct: false },
+    ],
+  },
+  {
+    question: "Which gas is essential for human respiration?",
+    answers: [
+      { text: "Carbon Dioxide", correct: false },
+      { text: "Oxygen", correct: true },
+      { text: "Nitrogen", correct: false },
+      { text: "Hydrogen", correct: false },
+    ],
+  },
+  {
+    question: "What is the freezing point of water?",
+    answers: [
+      { text: "0°C", correct: true },
+      { text: "32°C", correct: false },
+      { text: "100°C", correct: false },
+      { text: "-10°C", correct: false },
+    ],
+  },
+  {
+    question: "Which famous ship sank in 1912?",
+    answers: [
+      { text: "Titanic", correct: true },
+      { text: "Lusitania", correct: false },
+      { text: "Queen Mary", correct: false },
+      { text: "Bismarck", correct: false },
+    ],
+  },
+  {
+    question: "Which country has the largest population?",
+    answers: [
+      { text: "India", correct: false },
+      { text: "China", correct: true },
+      { text: "USA", correct: false },
+      { text: "Russia", correct: false },
+    ],
+  },
 ];
 
 // ===== Variables =====
